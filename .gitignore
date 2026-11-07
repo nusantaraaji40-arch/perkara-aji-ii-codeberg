@@ -1,0 +1,21 @@
+# Jangan pernah commit secret apa pun ke repo ini.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*token*
+*secret*
+credentials.json
+config/secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Sistem
+.DS_Store
+Thumbs.db
